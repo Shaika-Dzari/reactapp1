@@ -13,8 +13,8 @@ function hello(state = [], action) {
     }
 }
 
-const helloApp = combineReducers({
+const helloReducer = combineReducers({
     names: hello
 });
 
-export default helloApp;
+export default helloReducer;

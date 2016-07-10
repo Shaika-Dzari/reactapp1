@@ -1,9 +1,12 @@
 import React, { PropTypes } from 'react'
 
-const Hello = () => {
+const Hello = ({names}) => {
+    let nameValues = names.join();
     return (
-        <span>Hello World!</span>
+        <span>Hello : {nameValues}</span>
     );
-}
+};
+
+
 
 export default Hello;
